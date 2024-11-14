@@ -26,6 +26,27 @@
     background-size: cover;
     overflow-x: hidden;
 } 
+.modal-card {
+    width: 900px;
+    height: 529px;
+    z-index: 9999; 
+    opacity: 1;
+    position: fixed;
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border-radius: 15px;
+    pointer-events: auto;
+}
+.close-btn{
+    position: relative;
+    left: 280px;
+    top: 30px;
+}
+.border{
+    border-radius: 12px;
+    border: none;
+}
 .home-sub-section{
     height: inherit;
     position:absolute;
@@ -35,6 +56,7 @@
     z-index: 2;
     top: 0;
 }
+
 .logo-sec{
     display: flex;
     flex-direction: column;
@@ -424,6 +446,9 @@
 .features-icons{
     height: 70px;
     width: auto;
+}
+.left-align{
+    text-align: left;
 }
 .features{
     font-size: 28px;
